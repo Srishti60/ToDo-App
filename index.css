@@ -1,0 +1,57 @@
+.todo-app-card1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.todo-app-card2{
+    height: auto;
+    width: 350px;
+    background-color: antiquewhite;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 40px;
+}
+.todo-app-card{
+   
+   
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+ 
+  
+}
+.todo-app-card input{
+    height: 40px;
+    width: 200px;
+    border: 1px solid #000;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.todo-app-card button{
+   height: 40px;
+   width: 100px;
+   background-color: greenyellow;
+   border-radius: 5px;
+   border: none;
+   border: 1px solid #000;
+}
+@media(max-width:600px)
+{
+    .todo-app-card2{
+        height: auto;
+        width: 280px;
+        background-color: antiquewhite;
+        border: 1px solid #000;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 40px;
+    }
+}
